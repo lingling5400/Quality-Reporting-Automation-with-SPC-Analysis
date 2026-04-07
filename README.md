@@ -20,3 +20,11 @@ The system can automatically detect anomalies in sensor measurements, evaluate S
 ## Dataset
 The dataset used in this project is from **Kaggle: SECOM Manufacturing Data**  
 [https://www.kaggle.com/datasets/uciml/secom](https://www.kaggle.com/datasets/uciml/secom)  
+
+
+---
+
+## Future Plans
+- Add multi-sensor SPC evaluation  
+- Integrate OCR for image-to-data automation  
+- Deploy as a LINE Bot for real-time monitoring  
