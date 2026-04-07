@@ -1,0 +1,33 @@
+Before: [-1  1]
+After: [0 1]
+原始 shape: (1567, 592)
+缺失值總數: 41951
+刪除高缺失後 shape: (1567, 564)
+缺失值已填補
+
+ 3σ 評估 (0)
+              precision    recall  f1-score   support
+
+           0       0.93      0.99      0.96      1463
+           1       0.12      0.02      0.03       104
+
+    accuracy                           0.93      1567
+   macro avg       0.53      0.50      0.50      1567
+weighted avg       0.88      0.93      0.90      1567
+
+
+ ML 模型 (RandomForest)
+C:\Users\user\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.       
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])        
+C:\Users\user\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.       
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])        
+C:\Users\user\anaconda3\Lib\site-packages\sklearn\metrics\_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.       
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])        
+              precision    recall  f1-score   support
+
+           0       0.93      1.00      0.97       293
+           1       0.00      0.00      0.00        21
+
+    accuracy                           0.93       314
+   macro avg       0.47      0.50      0.48       314
+weighted avg       0.87      0.93      0.90       314
