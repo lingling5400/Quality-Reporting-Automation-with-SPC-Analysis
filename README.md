@@ -27,4 +27,3 @@ The dataset used in this project is from **Kaggle: SECOM Manufacturing Data**
 ## Future Plans
 - Add multi-sensor SPC evaluation  
 - Integrate OCR for image-to-data automation  
-- Deploy as a LINE Bot for real-time monitoring  
